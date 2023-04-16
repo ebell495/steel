@@ -1,0 +1,6 @@
+project: steel
+target: steel-fuzz
+
+cmds:
+    - cmd: ./steel-fuzz
+      libfuzzer: true
